@@ -3,112 +3,148 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Live Score Soccer Support</title>
+  <title>Live Score Soccer</title>
   <style>
     /* General Styles */
     body {
-      font-family: 'Arial', sans-serif;
+      font-family: Arial, sans-serif;
       line-height: 1.6;
       margin: 0;
       padding: 0;
-      background-color: #f4f4f4;
+      background-color: #f9f9f9;
       color: #333;
     }
-
     .container {
       max-width: 800px;
       margin: 0 auto;
       padding: 20px;
       background-color: #fff;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       border-radius: 8px;
     }
-
     h1, h2 {
       color: #007BFF;
-    }
-
-    h1 {
       text-align: center;
-      margin-bottom: 20px;
     }
-
     h2 {
       margin-top: 30px;
+      font-size: 1.5rem;
+    }
+    p, ul {
+      text-align: left;
+      margin: 10px 0;
+    }
+    ul {
+      list-style-type: disc;
+      padding-left: 20px;
+    }
+    strong {
       color: #28A745;
     }
 
-    p {
-      margin-bottom: 15px;
-    }
-
-    /* Button Styles */
-    .nav-button {
+    /* Buttons */
+    .button {
       display: inline-block;
-      margin: 10px;
+      margin: 20px 10px;
       padding: 10px 20px;
       background-color: #007BFF;
       color: white;
       text-decoration: none;
-      border: none;
       border-radius: 5px;
-      cursor: pointer;
       transition: background-color 0.3s;
     }
-
-    .nav-button:hover {
+    .button:hover {
       background-color: #0056b3;
     }
 
-    .button-container {
-      text-align: center;
-      margin-top: 30px;
+    /* Sections */
+    .section {
+      margin-bottom: 30px;
     }
-
-    /* FAQ Styles */
-    .faq-section {
+    .note {
+      background-color: #f8d7da;
+      color: #721c24;
+      padding: 15px;
+      border-radius: 5px;
       margin-top: 20px;
-      text-align: left;
     }
-
-    .faq-question {
-      margin-bottom: 20px;
-    }
-
-    .faq-question strong {
-      display: block;
-      margin-bottom: 5px;
-      color: #007BFF;
-    }
-
-    /* Highlight Styles */
-    .highlight {
-      background-color: #e9f5ff;
-      padding: 10px;
-      border-left: 4px solid #007BFF;
-      margin-bottom: 20px;
-      border-radius: 4px;
-    }
-
-    /* Footer Styles */
-    footer {
-      text-align: center;
-      margin-top: 40px;
-      padding: 20px;
-      background-color: #f4f4f4;
-      border-top: 1px solid #ddd;
+    .privacy {
+      background-color: #d4edda;
+      color: #155724;
+      padding: 15px;
+      border-radius: 5px;
+      margin-top: 20px;
     }
   </style>
 </head>
 <body>
   <div class="container">
-    <h1>Live Score Soccer Support</h1>
-    <div class="highlight">
+    <!-- Header -->
+    <h1>Live Score Soccer</h1>
+    <p>
+      Live scores and updates: Follow thousands of matches and game-changing moments in real time.
+    </p>
+
+    <!-- Introduction -->
+    <div class="section">
       <p>
-        Welcome to <strong>Live Score Soccer</strong>, your go-to app for real-time match updates, live scores, and the latest soccer news. Track your favorite teams and leagues effortlessly with our intuitive and free-to-use app.
+        Track your favorite soccer matches in real time and get the latest sports news with <strong>Live Score Soccer</strong>. This user-friendly app provides live score tracking and the latest match information in one place. Whether you're a passionate fan or just following the game, this app has it all.
       </p>
     </div>
 
-    <h2>Key Features</h2>
-    <ul>
-      <li><strong>Live Match
+    <!-- Key Features -->
+    <div class="section">
+      <h2>Key Features</h2>
+      <ul>
+        <li><strong>Live match scores:</strong> Track accurate and up-to-date match progress in real-time.</li>
+        <li><strong>Match info:</strong> Get detailed match stats, including team lineups, player performance, and more.</li>
+        <li><strong>Custom stream player:</strong> Enter your M3U8 URL to stream personalized content directly to your device.</li>
+        <li><strong>Sports News:</strong> Get the latest soccer news, including transfer news, injury updates, league standings, and more.</li>
+        <li><strong>Simple interface:</strong> Intuitive and clean design makes it easy for anyone to use.</li>
+        <li><strong>No signup required:</strong> Get started immediately without creating an account.</li>
+        <li><strong>Free to use:</strong> Completely free to use with no subscription fees or hidden charges.</li>
+      </ul>
+    </div>
+
+    <!-- What You Get -->
+    <div class="section">
+      <h2>What You Get with Live Score Soccer</h2>
+      <ul>
+        <li>Live score updates from leagues around the world (Premier League, La Liga, Serie A, Bundesliga, Champions League, etc.)</li>
+        <li>Daily updated soccer news, player stats, and expert analysis</li>
+        <li>Comprehensive coverage of various soccer leagues and competitions</li>
+        <li>Personalized streaming experience with support for M3U8 Stream Player</li>
+      </ul>
+    </div>
+
+    <!-- Please Note -->
+    <div class="section">
+      <h2>Please Note</h2>
+      <div class="note">
+        <p>An active internet connection is required for live updates and streaming.</p>
+        <p>This app does not host, store, or distribute any media content, and match information is provided for tracking purposes only.</p>
+        <p>Users are responsible for the legitimacy of their personal M3U sources.</p>
+        <p>All data is pulled from public sports APIs and databases.</p>
+        <p>It is available for immediate download and use without account creation.</p>
+      </div>
+    </div>
+
+    <!-- Privacy and Security -->
+    <div class="section">
+      <h2>Privacy and Security You Can Trust</h2>
+      <div class="privacy">
+        <p><strong>Zero data collection:</strong> Your privacy is our top priority. We do not track or collect any personal information.</p>
+        <p><strong>Local storage:</strong> All your playlists and settings are securely stored on your device, giving you complete control over your data.</p>
+        <p><strong>Modern design:</strong> Optimized interface for all iPhone models for a seamless experience across devices.</p>
+        <p><strong>Independently developed app:</strong> Built in-house with no external dependencies or third-party services, ensuring maximum security and reliability.</p>
+      </div>
+    </div>
+
+    <!-- Call to Action -->
+    <div style="text-align: center;">
+      <a href="#" class="button">Download Now</a>
+      <a href="#features" class="button">Learn More</a>
+    </div>
+  </div>
+</body>
+</html>
