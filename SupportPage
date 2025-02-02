@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Live Score Soccer Support</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      border-radius: 8px;
+    }
+
+    h1, h2 {
+      color: #007BFF;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    h2 {
+      margin-top: 30px;
+      color: #28A745;
+    }
+
+    p {
+      margin-bottom: 15px;
+    }
+
+    /* Button Styles */
+    .nav-button {
+      display: inline-block;
+      margin: 10px;
+      padding: 10px 20px;
+      background-color: #007BFF;
+      color: white;
+      text-decoration: none;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    .nav-button:hover {
+      background-color: #0056b3;
+    }
+
+    .button-container {
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    /* FAQ Styles */
+    .faq-section {
+      margin-top: 20px;
+      text-align: left;
+    }
+
+    .faq-question {
+      margin-bottom: 20px;
+    }
+
+    .faq-question strong {
+      display: block;
+      margin-bottom: 5px;
+      color: #007BFF;
+    }
+
+    /* Highlight Styles */
+    .highlight {
+      background-color: #e9f5ff;
+      padding: 10px;
+      border-left: 4px solid #007BFF;
+      margin-bottom: 20px;
+      border-radius: 4px;
+    }
+
+    /* Footer Styles */
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 20px;
+      background-color: #f4f4f4;
+      border-top: 1px solid #ddd;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Live Score Soccer Support</h1>
+    <div class="highlight">
+      <p>
+        Welcome to <strong>Live Score Soccer</strong>, your go-to app for real-time match updates, live scores, and the latest soccer news. Track your favorite teams and leagues effortlessly with our intuitive and free-to-use app.
+      </p>
+    </div>
+
+    <h2>Key Features</h2>
+    <ul>
+      <li><strong>Live Match
