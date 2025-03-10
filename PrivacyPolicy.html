@@ -83,6 +83,10 @@
         <li>The pages of the Application that you visit, the time and date of your visit, the time spent on those pages</li>
         <li>The time spent on the Application</li>
         <li>The operating system you use on your mobile device</li>
+        <li>Device identifiers such as Advertising ID (IDFA on iOS, AAID on Android)</li>
+        <li>App usage statistics and interaction patterns</li>
+        <li>App crash reports and performance data</li>
+        <li>General location information (not precise GPS coordinates)</li>
       </ul>
       <p>
         The Service Provider may use the information you provided to contact you from time to time to provide you with important information, required notices, and marketing promotions.
@@ -91,21 +95,44 @@
         For a better experience, while using the Application, the Service Provider may require you to provide us with certain personally identifiable information. The information that the Service Provider requests will be retained by them and used as described in this privacy policy.
       </p>
     </div>
+    
+    <!-- App Tracking Transparency (ATT) -->
+    <div class="section">
+      <h2>App Tracking Transparency (iOS Users)</h2>
+      <p>
+        For iOS users on iOS 14.5 or later, the Application will request permission to track your activity across other companies' apps and websites. This tracking technology uses your device's Advertising Identifier (IDFA) to help deliver personalized advertisements to you.
+      </p>
+      <p>
+        When prompted by the system, you can choose to either allow or deny tracking. If you select "Allow," the Application will be able to:
+      </p>
+      <ul>
+        <li>Show you personalized advertisements based on your interests and activities</li>
+        <li>Measure the effectiveness of advertisements you see or interact with</li>
+        <li>Provide advertisers with aggregated information about ad performance</li>
+      </ul>
+      <p>
+        If you select "Ask App Not to Track," we will respect your choice and will not track your activity across other companies' apps and websites for advertising purposes. You may still see advertisements, but they will be less relevant to your interests.
+      </p>
+      <p>
+        You can change your tracking preferences at any time in your device's Settings app under Privacy > Tracking.
+      </p>
+    </div>
 
     <!-- Location Data Usage -->
     <div class="section">
       <h2>Location Data Usage</h2>
       <p>
-        While the Application does not collect precise GPS location data, it may collect and process general location information through your IP address and network information. This general location data may be used to:
+        Location permission is completely <strong>optional</strong> in the Application. If you choose to grant location permission when prompted, the Application may collect general location information. The Application may also collect and process general location information through your IP address and network information. This general location data may be used to:
       </p>
       <ul>
         <li>Provide regionally relevant content, including local sports events and matches</li>
         <li>Comply with regional broadcasting and streaming regulations</li>
         <li>Improve service performance by connecting to geographically closer servers</li>
         <li>Enable certain features that may only be available in specific regions</li>
+        <li>Deliver more relevant advertisements (if you've allowed personalized ads)</li>
       </ul>
       <p>
-        You can limit the collection of location-related information by using a VPN service, though this may affect some functionality of the Application. The Service Provider retains location data for as long as necessary to provide services and comply with legal obligations.
+        You can revoke location permissions at any time through your device's settings. Denying location permission will not affect the core functionality of the Application. You can also limit the collection of location-related information by using a VPN service. The Service Provider retains location data for as long as necessary to provide services and comply with legal obligations.
       </p>
     </div>
 
@@ -151,6 +178,38 @@
       </p>
     </div>
 
+    <!-- Advertising and Analytics -->
+    <div class="section">
+      <h2>Advertising and Analytics</h2>
+      <p>
+        The Application is supported by advertising and uses various third-party advertising networks to display advertisements. These advertisements may be targeted based on:
+      </p>
+      <ul>
+        <li>Your general location (region/country)</li>
+        <li>Your interactions with the Application</li>
+        <li>Your interests and preferences determined by our advertising partners</li>
+        <li>The time of day and day of the week</li>
+        <li>Recent sporting events and trends</li>
+      </ul>
+      <p>
+        The Application also collects analytics data to measure advertising performance and user engagement. This includes:
+      </p>
+      <ul>
+        <li>Ad impressions (when an ad is shown)</li>
+        <li>Ad clicks (when you tap on an ad)</li>
+        <li>Ad conversions (when you perform an action after seeing an ad)</li>
+        <li>View-through rates and click-through rates</li>
+        <li>Session length and frequency of app usage</li>
+      </ul>
+      <p>
+        <strong>Ad Management Options:</strong> You can manage your ad preferences and opt out of personalized advertising through the Application's settings menu. You can also use your device's advertising settings:
+      </p>
+      <ul>
+        <li>On iOS: Settings > Privacy > Tracking, and Settings > Privacy > Apple Advertising</li>
+        <li>On Android: Settings > Google > Ads, or Settings > Privacy > Ads</li>
+      </ul>
+    </div>
+
     <!-- Third Party Access -->
     <div class="section">
       <h2>Third Party Access</h2>
@@ -161,9 +220,9 @@
         Please note that the Application utilizes third-party services that have their own Privacy Policy about handling data. Below are the links to the Privacy Policy of the third-party service providers used by the Application:
       </p>
       <ul>
-        <li><a href="https://policies.google.com/privacy" target="_blank">AdMob</a></li>
-        <li><a href="https://www.facebook.com/policy.php" target="_blank">Facebook</a></li>
-        <li><a href="https://www.applovin.com/privacy/" target="_blank">AppLovin</a></li>
+        <li><a href="https://policies.google.com/privacy" target="_blank">Google AdMob</a> - Provides advertising services and may collect device identifiers, IP address, and app usage data to serve relevant ads</li>
+        <li><a href="https://www.facebook.com/policy.php" target="_blank">Facebook (Meta) Audience Network</a> - Delivers advertisements and may collect device information, usage data, and limited demographic information</li>
+        <li><a href="https://www.applovin.com/privacy/" target="_blank">AppLovin</a> - Provides advertising services and may collect device information, usage patterns, and general location data</li>
       </ul>
       <p>
         The Service Provider may disclose User Provided and Automatically Collected Information:
@@ -175,11 +234,56 @@
       </ul>
     </div>
 
+    <!-- Your Privacy Rights (GDPR/CCPA) -->
+    <div class="section">
+      <h2>Your Privacy Rights</h2>
+      <p>
+        Depending on your location, you may have certain rights regarding your personal information:
+      </p>
+      <p>
+        <strong>For European Economic Area (EEA) Users (GDPR):</strong> You have the right to:
+      </p>
+      <ul>
+        <li>Access the personal data we hold about you</li>
+        <li>Request correction of inaccurate personal data</li>
+        <li>Request deletion of your personal data</li>
+        <li>Object to processing of your personal data</li>
+        <li>Request restriction of processing your personal data</li>
+        <li>Request transfer of your personal data</li>
+        <li>Withdraw consent where we rely on consent to process your personal data</li>
+      </ul>
+      <p>
+        <strong>For California Residents (CCPA):</strong> You have the right to:
+      </p>
+      <ul>
+        <li>Know what personal information is being collected about you</li>
+        <li>Know whether your personal information is sold or disclosed and to whom</li>
+        <li>Say no to the sale of personal information</li>
+        <li>Access your personal information</li>
+        <li>Request deletion of your personal information</li>
+        <li>Not be discriminated against for exercising your privacy rights</li>
+      </ul>
+      <p>
+        To exercise these rights, please contact us at <a href="mailto:adamjhon4444@gmail.com">adamjhon4444@gmail.com</a>.
+      </p>
+    </div>
+
     <!-- Opt-Out Rights -->
     <div class="section">
       <h2>Opt-Out Rights</h2>
       <p>
         You can stop all collection of information by the Application easily by uninstalling it. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network.
+      </p>
+      <p>
+        Additionally, you can opt out of personalized advertising within the Application through:
+      </p>
+      <ul>
+        <li>The Application's settings menu under "Privacy" or "Ad Preferences"</li>
+        <li>Your device's advertising settings</li>
+        <li>Industry opt-out tools provided by our advertising partners</li>
+      </ul>
+      <p>
+        Note that opting out of personalized advertising does not mean you will stop seeing ads, but the ads you see may be less relevant to your interests.
       </p>
     </div>
 
@@ -187,8 +291,11 @@
     <div class="section">
       <h2>Data Retention Policy</h2>
       <p>
-        The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter. If you'd like them to delete User Provided Data that you have provided via the Application, please contact them at 
-        <a href="mailto:adamjhon4444@gmail.com">adamjhon4444@gmail.com</a> and they will respond in a reasonable time.
+        The Service Provider will retain User Provided data for as long as you use the Application and for a reasonable time thereafter, typically no longer than 13 months after your last interaction with the Application. Analytics data may be retained in aggregated form for up to 36 months for trend analysis and service improvement.
+      </p>
+      <p>
+        If you'd like to request deletion of User Provided Data that you have provided via the Application, please contact us at 
+        <a href="mailto:adamjhon4444@gmail.com">adamjhon4444@gmail.com</a> and we will respond within 30 days.
       </p>
     </div>
 
@@ -196,19 +303,35 @@
     <div class="section">
       <h2>Children</h2>
       <p>
-        The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13.
+        The Service Provider does not use the Application to knowingly solicit data from or market to children under the age of 13. The Application complies with the Children's Online Privacy Protection Act (COPPA).
       </p>
       <p>
         The Application does not address anyone under the age of 13. The Service Provider does not knowingly collect personally identifiable information from children under 13 years of age. In the case the Service Provider discovers that a child under 13 has provided personal information, the Service Provider will immediately delete this from their servers. If you are a parent or guardian and you are aware that your child has provided us with personal information, please contact the Service Provider at 
         <a href="mailto:adamjhon4444@gmail.com">adamjhon4444@gmail.com</a> so that they will be able to take the necessary actions.
       </p>
+      <p>
+        Users aged 13-16 (depending on country/region) may be required to have parental consent before certain data collection occurs. The Application implements age-gating where required by law.
+      </p>
     </div>
 
-    <!-- Security -->
+    <!-- Data Security -->
     <div class="section">
-      <h2>Security</h2>
+      <h2>Data Security</h2>
       <p>
         The Service Provider is concerned about safeguarding the confidentiality of your information. The Service Provider provides physical, electronic, and procedural safeguards to protect information the Service Provider processes and maintains.
+      </p>
+      <p>
+        These security measures include:
+      </p>
+      <ul>
+        <li>Encryption of data in transit using industry-standard TLS protocols</li>
+        <li>Regular security assessments and code reviews</li>
+        <li>Access controls limiting data access to authorized personnel only</li>
+        <li>Server-side security measures to prevent unauthorized access</li>
+        <li>Prompt application of security patches and updates</li>
+      </ul>
+      <p>
+        Despite these efforts, no method of transmission over the internet or electronic storage is 100% secure. While we strive to protect your information, we cannot guarantee its absolute security.
       </p>
     </div>
 
