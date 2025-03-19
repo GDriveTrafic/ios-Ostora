@@ -17,5 +17,6 @@
   "share": "check out this awesome score list app",
   "rate": "https://apps.apple.com",
   "more": "https://apps.apple.com/co/developer/",
-  "interval": 3
+  "interval": 3,
+  "click_interval": 3
 }
