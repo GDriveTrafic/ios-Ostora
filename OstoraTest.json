@@ -18,5 +18,6 @@
   "rate": "https://apps.apple.com",
   "more": "https://apps.apple.com/co/developer/",
   "interval": 3,
-  "click_interval": 3
+  "click_interval": 3,
+  "frequency_seconds": 3,
 }
