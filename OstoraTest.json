@@ -21,7 +21,7 @@
   "click_interval": 3,
   "frequency_seconds": 30,
   "coppa_mode": false,
-  "ad_style": 0,
+  "ad_style": 3,
   "ad_accent_color": "3f51b5",
   "ad_cta_color": "#2196F3"
 }
