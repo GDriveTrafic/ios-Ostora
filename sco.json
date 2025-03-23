@@ -28,7 +28,7 @@
     "ios_app_id": "1234567890",
     "android_package_name": "com.yourcompany.myscoreapp",
     "min_sessions_before_asking": 1,
-    "min_days_before_asking": 0,
+    "min_days_before_asking": 1,
     "days_before_reminding": 1,
     "use_native_prompt": false,
     "custom_prompt_title": "Testing Rate Us",
