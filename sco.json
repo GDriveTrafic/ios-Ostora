@@ -1,7 +1,10 @@
 {
-  "showbutton": false,
+  "app_version": "1.5.0",
+  "last_update": "2025-03-23",
+  
   "ad_statut": true,
   "ad_type": 1,
+  "showbutton": false,
   
   "admob_adaptive_banner": "ca-app-pub-3940256099942544/9214589741",
   "admob_mrec": "ca-app-pub-3940256099942544/6300978111",
@@ -27,6 +30,7 @@
   "min_interstitial_interval": 120,
   "min_app_open_interval": 120,
   "background_threshold_seconds": 30,
+  "refresh_on_page_change": true,
   
   "coppa_mode": false,
   "consent_required": true,
@@ -34,7 +38,6 @@
   "ad_style": 1,
   "ad_accent_color": "3f51b5",
   "ad_cta_color": "#fc05ea",
-  "refresh_on_page_change": true,
   
   "ad_network_priority": {
     "interstitial": ["admob", "fan"],
@@ -42,18 +45,6 @@
     "native": ["admob", "fan"],
     "mrec": ["admob", "fan"],
     "rewarded": ["admob"]
-
-    "rate_us": {
-    "enabled": true,
-    "show_after_days": 0,
-    "show_after_app_opens": 1,
-    "max_prompt_count": 3,
-    "days_between_prompts": 14,
-    "custom_message": "Enjoying our app? Rate us to help others discover it!",
-    "rating_threshold": 4,
-    "high_rating_message": "Great! Please rate us on the App Store!",
-    "low_rating_message": "We'd love to hear how we can improve. Send us feedback?"
-  
   },
   
   "ad_placement": {
@@ -73,7 +64,8 @@
     "min_visibility_percent": 50,
     "min_visibility_time_ms": 1000,
     "enable_ad_load_timeout": true,
-    "ad_load_timeout_ms": 15000
+    "ad_load_timeout_ms": 15000,
+    "preload_on_wifi_only": false
   },
   
   "privacy_policy_url": "https://yourapp.com/privacy",
@@ -90,21 +82,30 @@
     "enable_ecpm_tracking": true,
     "auto_switch_networks": true,
     "min_samples_before_switch": 100,
-    "network_test_percentage": 10
+    "network_test_percentage": 10,
+    "min_improvement_percent": 15,
+    "optimization_interval_hours": 24
   },
   
   "error_reporting": {
     "enable_ad_error_logging": true,
     "report_crashes": true,
-    "log_level": "INFO"
+    "log_level": "INFO",
+    "max_error_logs": 100
   },
   
   "test_mode": {
     "enabled": false,
     "show_test_devices": false,
     "force_consent_debug": false,
-    "force_non_personalized": false
-
-    
+    "force_non_personalized": false,
+    "test_device_ids": ["TEST_DEVICE_HASH1", "TEST_DEVICE_HASH2"]
+  },
+  
+  "user_experience": {
+    "show_loading_indicator": true,
+    "loading_indicator_timeout_ms": 3000,
+    "enable_smart_ad_timing": true,
+    "min_app_time_before_ads_sec": 15
   }
 }
