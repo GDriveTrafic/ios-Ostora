@@ -42,6 +42,18 @@
     "native": ["admob", "fan"],
     "mrec": ["admob", "fan"],
     "rewarded": ["admob"]
+
+    "rate_us": {
+    "enabled": true,
+    "show_after_days": 3,
+    "show_after_app_opens": 5,
+    "max_prompt_count": 3,
+    "days_between_prompts": 14,
+    "custom_message": "Enjoying our app? Rate us to help others discover it!",
+    "rating_threshold": 4,
+    "high_rating_message": "Great! Please rate us on the App Store!",
+    "low_rating_message": "We'd love to hear how we can improve. Send us feedback?"
+  
   },
   
   "ad_placement": {
@@ -92,5 +104,7 @@
     "show_test_devices": false,
     "force_consent_debug": false,
     "force_non_personalized": false
+
+    
   }
 }
