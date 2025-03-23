@@ -8,56 +8,89 @@
   "admob_inter": "ca-app-pub-3940256099942544/1033173712",
   "admob_native": "ca-app-pub-3940256099942544/2247696110",
   "admob_open_ad": "ca-app-pub-3940256099942544/9257395921",
+  "admob_rewarded": "ca-app-pub-3940256099942544/5224354917",
   
   "fan_inter": "IMG_16_9_APP_INSTALL#1234567890",
   "fan_banner": "IMG_16_9_APP_INSTALL#1234567890",
   "fan_native": "IMG_16_9_APP_INSTALL#1234567890",
   "fan_mrec": "RECTANGLE_HEIGHT_250#YOUR_PLACEMENT_ID",
   
-  "applovin_inter": "",
-  "applovin_mrec": "your_applovin_mrec_id",
-  
   "vids": "",
-  "share": "check out this awesome score list app",
+  "share": "Check out this awesome score list app",
   "rate": "https://apps.apple.com",
   "more": "https://apps.apple.com/co/developer/",
+  "support_email": "support@yourdomain.com",
   
-  "interval": 3,
+  "interval": 120,
   "click_interval": 3,
-  "frequency_seconds": 30,
-  "min_interstitial_interval": 60,
+  "frequency_seconds": 120,
+  "min_interstitial_interval": 120,
   "min_app_open_interval": 120,
+  "background_threshold_seconds": 30,
   
   "coppa_mode": false,
+  "consent_required": true,
+  "personalized_ads": true,
   "ad_style": 1,
   "ad_accent_color": "3f51b5",
   "ad_cta_color": "#fc05ea",
+  "refresh_on_page_change": true,
   
-  "ad_waterfall": ["admob", "fan", "applovin"],
-  "ad_priority": {
+  "ad_network_priority": {
+    "interstitial": ["admob", "fan"],
     "banner": ["admob", "fan"],
-    "interstitial": ["admob", "fan", "applovin"],
-    "native": ["admob", "fan"]
+    "native": ["admob", "fan"],
+    "mrec": ["admob", "fan"],
+    "rewarded": ["admob"]
   },
   
-  "native_ad_placement": {
-    "home_screen": true,
-    "detail_screen": true,
+  "ad_placement": {
+    "native_interval": 5,
+    "matches_interval": 3,
+    "news_interval": 5,
+    "channels_interval": 8,
     "max_ads_per_page": 2,
-    "min_content_items_between_ads": 8
+    "min_content_between_ads": 4
   },
   
   "policy_compliance": {
-    "frequency_capping": {
-      "interstitial_max_per_session": 5,
-      "max_per_hour": 10
-    },
+    "interstitial_per_session": 5,
+    "max_ads_per_hour": 10,
     "app_open_on_start": false,
-    "app_open_on_background": true,
-    "background_threshold_seconds": 30
+    "background_threshold_seconds": 30,
+    "min_visibility_percent": 50,
+    "min_visibility_time_ms": 1000,
+    "enable_ad_load_timeout": true,
+    "ad_load_timeout_ms": 15000
   },
   
-  "consent_required": true,
   "privacy_policy_url": "https://yourapp.com/privacy",
-  "terms_url": "https://yourapp.com/terms"
+  "terms_url": "https://yourapp.com/terms",
+  
+  "consent_flow": {
+    "use_custom_dialog": false,
+    "show_att_first": true,
+    "debug_geography": "EEA",
+    "reset_consent_after_days": 90
+  },
+  
+  "revenue_optimization": {
+    "enable_ecpm_tracking": true,
+    "auto_switch_networks": true,
+    "min_samples_before_switch": 100,
+    "network_test_percentage": 10
+  },
+  
+  "error_reporting": {
+    "enable_ad_error_logging": true,
+    "report_crashes": true,
+    "log_level": "INFO"
+  },
+  
+  "test_mode": {
+    "enabled": false,
+    "show_test_devices": false,
+    "force_consent_debug": false,
+    "force_non_personalized": false
+  }
 }
