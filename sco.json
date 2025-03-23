@@ -21,7 +21,7 @@
   "more": "https://apps.apple.com/co/developer/",
   "support_email": "support@yourdomain.com",
   
-  "interval": 120,
+  "interval": 30,
   "click_interval": 3,
   "frequency_seconds": 120,
   "min_interstitial_interval": 120,
