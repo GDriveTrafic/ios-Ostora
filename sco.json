@@ -23,30 +23,21 @@
   "support_email": "support@yourdomain.com",
   "more": "https://apps.apple.com/co/developer/",
   
- "rate_us": {
+  "rate_us": {
     "enabled": true,
+    "force_show": true,
     "ios_app_id": "1234567890",
     "android_package_name": "com.yourcompany.myscoreapp",
-    "min_sessions_before_asking": 0,
-    "min_days_before_asking": 0,
-    "days_before_reminding": 0,
+    "show_after_days": 0,
+    "show_after_app_opens": 1,
     "max_prompt_count": 999,
-    "show_after_positive_action": true,
-    "never_show_if_rated": false,
+    "days_between_prompts": 0,
     "use_native_prompt": false,
-    "force_show": true,
-    "show_on_start": true,
-    "show_on_launch": true,
-    "custom_prompt_title": "👋 TEST RATE US DIALOG",
-    "custom_prompt_message": "This is a TEST dialog. If you're seeing this, the Rate Us feature is working correctly!",
-    "custom_prompt_rate_button": "⭐ TEST RATE",
-    "custom_prompt_later_button": "⏱️ TEST LATER",
-    "custom_prompt_no_button": "❌ TEST NO",
+    "custom_message": "⚠️ TEST MODE: Rate Us Dialog ⚠️",
     "rating_threshold": 3,
     "high_rating_message": "TEST: Thanks for the high rating!",
-    "low_rating_message": "TEST: Thanks for your feedback!",
-    "debug_mode": true,
-    "debug_always_show": true
+    "low_rating_message": "TEST: Thanks for the feedback!",
+    "debug_mode": true
   },
   
   "interval": 120,
