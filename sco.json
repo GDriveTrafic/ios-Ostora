@@ -45,8 +45,8 @@
 
     "rate_us": {
     "enabled": true,
-    "show_after_days": 3,
-    "show_after_app_opens": 5,
+    "show_after_days": 0,
+    "show_after_app_opens": 1,
     "max_prompt_count": 3,
     "days_between_prompts": 14,
     "custom_message": "Enjoying our app? Rate us to help others discover it!",
