@@ -1,10 +1,7 @@
 {
-  "app_version": "1.5.0",
-  "last_update": "2025-03-23",
-  
+  "showbutton": true,
   "ad_statut": true,
   "ad_type": 1,
-  "showbutton": true,
   
   "admob_adaptive_banner": "ca-app-pub-3940256099942544/9214589741",
   "admob_mrec": "ca-app-pub-3940256099942544/6300978111",
@@ -20,25 +17,9 @@
   
   "vids": "",
   "share": "Check out this awesome score list app",
-  "support_email": "support@yourdomain.com",
+  "rate": "https://apps.apple.com",
   "more": "https://apps.apple.com/co/developer/",
-  
-  "rate_us": {
-    "enabled": true,
-    "force_show": true,
-    "ios_app_id": "1234567890",
-    "android_package_name": "com.yourcompany.myscoreapp",
-    "show_after_days": 0,
-    "show_after_app_opens": 1,
-    "max_prompt_count": 999,
-    "days_between_prompts": 0,
-    "use_native_prompt": false,
-    "custom_message": "⚠️ TEST MODE: Rate Us Dialog ⚠️",
-    "rating_threshold": 3,
-    "high_rating_message": "TEST: Thanks for the high rating!",
-    "low_rating_message": "TEST: Thanks for the feedback!",
-    "debug_mode": true
-  },
+  "support_email": "support@yourdomain.com",
   
   "interval": 120,
   "click_interval": 3,
@@ -87,20 +68,36 @@
   "privacy_policy_url": "https://yourapp.com/privacy",
   "terms_url": "https://yourapp.com/terms",
   
-  "consent_flow": {
-    "use_custom_dialog": false,
-    "show_att_first": true,
-    "debug_geography": "EEA",
-    "reset_consent_after_days": 90
-  },
-  
-  "revenue_optimization": {
-    "enable_ecpm_tracking": true,
-    "auto_switch_networks": true,
-    "min_samples_before_switch": 100,
-    "network_test_percentage": 10,
-    "min_improvement_percent": 15,
-    "optimization_interval_hours": 24
+  "rate_us": {
+    "enabled": true,
+    "force_show": true,
+    "test_mode": true,
+    "ios_app_id": "1234567890",
+    "android_package_name": "com.yourcompany.myscoreapp",
+    "show_after_days": 0,
+    "show_after_app_opens": 1,
+    "days_between_prompts": 0,
+    "max_prompt_count": 3,
+    "use_native_prompt": false,
+    "custom_message": "Enjoying our app? Please take a moment to rate it!",
+    "title": "Rate Your Experience",
+    "message": "How would you rate your experience with our app?", 
+    "rate_button_text": "Rate Now",
+    "later_button_text": "Later",
+    "no_button_text": "No, Thanks",
+    "rating_threshold": 4,
+    "high_rating_message": "Thanks for the high rating!",
+    "low_rating_message": "Thanks for your feedback!",
+    "low_rating": {
+      "title": "We Value Your Feedback",
+      "message": "Thank you for your rating. We'd love to hear how we can improve.",
+      "send_feedback_button": "Send Feedback",
+      "later_button": "Maybe Later",
+      "show_contact_support": true,
+      "redirect_to_form": true,
+      "form_url": "https://forms.myapp.com/feedback",
+      "feedback_placeholder": "Please tell us what we can improve..."
+    }
   },
   
   "error_reporting": {
@@ -116,12 +113,5 @@
     "force_consent_debug": false,
     "force_non_personalized": false,
     "test_device_ids": ["TEST_DEVICE_HASH1", "TEST_DEVICE_HASH2"]
-  },
-  
-  "user_experience": {
-    "show_loading_indicator": true,
-    "loading_indicator_timeout_ms": 3000,
-    "enable_smart_ad_timing": true,
-    "min_app_time_before_ads_sec": 15
   }
 }
