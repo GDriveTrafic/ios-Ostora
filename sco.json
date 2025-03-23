@@ -4,7 +4,7 @@
   
   "ad_statut": true,
   "ad_type": 1,
-  "showbutton": false,
+  "showbutton": true,
   
   "admob_adaptive_banner": "ca-app-pub-3940256099942544/9214589741",
   "admob_mrec": "ca-app-pub-3940256099942544/6300978111",
