@@ -20,9 +20,28 @@
   
   "vids": "",
   "share": "Check out this awesome score list app",
-  "rate": "https://apps.apple.com",
-  "more": "https://apps.apple.com/co/developer/",
   "support_email": "support@yourdomain.com",
+  "more": "https://apps.apple.com/co/developer/",
+  
+  "rate_us": {
+    "enabled": true,
+    "ios_app_id": "1234567890",
+    "android_package_name": "com.yourcompany.myscoreapp",
+    "min_sessions_before_asking": 3,
+    "min_days_before_asking": 2,
+    "days_before_reminding": 7,
+    "use_native_prompt": true,
+    "custom_prompt_title": "Enjoying MyScoreApp?",
+    "custom_prompt_message": "If you enjoy using our app, would you mind taking a moment to rate it? Thank you for your support!",
+    "custom_prompt_rate_button": "Rate Now",
+    "custom_prompt_later_button": "Later",
+    "custom_prompt_no_button": "No, Thanks",
+    "min_app_version": "1.0.0",
+    "show_after_positive_action": true,
+    "never_show_if_rated": true,
+    "ios_app_store_url": "https://apps.apple.com/app/id1234567890",
+    "android_play_store_url": "https://play.google.com/store/apps/details?id=com.yourcompany.myscoreapp"
+  },
   
   "interval": 120,
   "click_interval": 3,
@@ -49,7 +68,7 @@
   
   "ad_placement": {
     "native_interval": 5,
-    "matches_interval": 5,
+    "matches_interval": 3,
     "news_interval": 5,
     "channels_interval": 8,
     "max_ads_per_page": 2,
