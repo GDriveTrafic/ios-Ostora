@@ -46,9 +46,9 @@
   
   "ad_placement": {
     "native_interval": 4,
-    "matches_interval": 4,
+    "matches_interval": 3,
     "news_interval": 4,
-    "channels_interval": 8,
+    "channels_interval": 3,
     "max_ads_per_page": 2,
     "min_content_between_ads": 4
   },
