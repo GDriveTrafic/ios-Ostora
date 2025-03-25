@@ -10,15 +10,33 @@
   "admob_interstitial": "ca-app-pub-XXXXXXXXXX/XXXXXXXXXX",
   "admob_banner": "ca-app-pub-XXXXXXXXXX/XXXXXXXXXX",
   "admob_native": "ca-app-pub-XXXXXXXXXX/XXXXXXXXXX",
+  "admob_rewarded": "ca-app-pub-XXXXXXXXXX/XXXXXXXXXX",
   "admob_open_ad": "ca-app-pub-XXXXXXXXXX/XXXXXXXXXX",
   "fan_interstitial": "YOUR_PLACEMENT_ID",
   "fan_banner": "YOUR_PLACEMENT_ID",
   "fan_native": "YOUR_PLACEMENT_ID",
-  "ad_type": 0,
+  "ad_type": 1,
   "interstitial_frequency": 120,
   "ad_placement": {
     "min_content_between_ads": 3,
-    "max_ads_per_section": 3
+    "max_ads_per_section": 3,
+    "matches_interval": 3,
+    "news_interval": 5,
+    "channels_interval": 4
   },
-  "rate_us_url": "https://apps.apple.com/us/app/futebol-max/id6741378116"
+  "ad_style": 2,
+  "ad_accent_color": "3f51b5",
+  "ad_cta_color": "#2196F3",
+  "consent_form": {
+    "enabled": true,
+    "privacy_policy_url": "https://yourprivacypolicy.com",
+    "publisher_id": "pub-XXXXXXXXXX"
+  },
+  "is_child_directed": false,
+  "tag_for_under_age_of_consent": false,
+  "tag_for_child_directed_treatment": false,
+  "max_ad_content_rating": "PG",
+  "showbutton": true,
+  "refresh_on_page_change": true
+
 }
