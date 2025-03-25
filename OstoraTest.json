@@ -1,6 +1,6 @@
 {
   "ad_statut": true,                                                 // Master toggle for all ads
-  "ad_type": 0,                                                      // 0=AdMob primary, 1=AdMob only, 2=Facebook only
+  "ad_type": 0,                                                      // 0=Waterfall, 1=AdMob only, 2=Facebook only
   "ad_style": 2,                                                     // 0=Default, 1=Match-like, 2=Sponsored, 3=News-style
   "frequency_seconds": 90,                                           // Minimum seconds between interstitial ads
   "click_interval": 3,                                               // Number of clicks before showing interstitial
@@ -8,19 +8,22 @@
   "refresh_on_page_change": true,                                    // Refresh ads on page transitions
   "ad_accent_color": "3f51b5",                                       // Accent color for ad styling (hex without #)
   "ad_cta_color": "#2196F3",                                         // CTA button color (hex with #)
+  "interval": 30,                                                    // General refresh interval for banner ads
+  "coppa_mode": false,                                               // Enable COPPA compliance mode
 
   // AdMob ad unit IDs
   "admob_interstitial": "ca-app-pub-3940256099942544/1033173712",    // AdMob interstitial test ID
   "admob_banner": "ca-app-pub-3940256099942544/6300978111",          // AdMob banner test ID
-  "admob_native": "ca-app-pub-3940256099942544/2247696110",          // AdMob native test ID
-  "admob_mrec": "ca-app-pub-3940256099942544/2247696110",            // AdMob MREC (medium rectangle)
-  "admob_adaptive_banner": "ca-app-pub-3940256099942544/6300978111", // AdMob adaptive banner
+  "admob_native": "ca-app-pub-3940256099942544/2247696110",          // AdMob native test ID 
+  "admob_mrec": "ca-app-pub-3940256099942544/2247696110",            // AdMob medium rectangle ad unit ID
+  "admob_adaptive_banner": "ca-app-pub-3940256099942544/6300978111", // AdMob adaptive banner ad unit ID
+  "admob_app_open": "ca-app-pub-3940256099942544/3419835294",        // AdMob app open ad test ID
 
   // Facebook/Meta ad unit IDs
   "fan_inter": "YOUR_FACEBOOK_INTERSTITIAL_ID",                      // Facebook interstitial ID
   "fan_banner": "YOUR_FACEBOOK_BANNER_ID",                           // Facebook banner ID
-  "fan_mrec": "YOUR_FACEBOOK_MREC_ID",                               // Facebook MREC ID
   "fan_native": "YOUR_FACEBOOK_NATIVE_ID",                           // Facebook native ID
+  "fan_mrec": "YOUR_FACEBOOK_MREC_ID",                               // Facebook medium rectangle ID
 
   // Ad placement intervals for different screens
   "ad_placement": {
@@ -28,5 +31,13 @@
     "news_interval": 5,                                              // Show ad after every 5 news items
     "channels_interval": 5,                                          // Show ad after every 5 channels
     "categories_interval": 4                                         // Show ad after every 4 categories
-  }
+  },
+
+  // Session limits (optional)
+  "maxInterstitialsPerSession": 10,                                  // Maximum interstitials per session
+  
+  // Video content configuration (from OstoraTest.json)
+  "vids": [                                                          // Array of video items for news feed
+    // Content for the video/news sections would go here
+  ]
 }
