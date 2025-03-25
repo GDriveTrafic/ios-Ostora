@@ -2,6 +2,7 @@
 {
   "showbutton": true,
   "ad_statut": true,
+  "ad_type": 1,
   "vids": [],
   "interval": 30,
   "admob_inter": "ca-app-pub-XXXXXXXXXX/XXXXXXXXXX",
@@ -15,7 +16,6 @@
   "fan_interstitial": "YOUR_PLACEMENT_ID",
   "fan_banner": "YOUR_PLACEMENT_ID",
   "fan_native": "YOUR_PLACEMENT_ID",
-  "ad_type": 1,
   "interstitial_frequency": 120,
   "ad_placement": {
     "min_content_between_ads": 3,
