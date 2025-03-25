@@ -1,6 +1,6 @@
 {
   "ad_statut": true,                                                 // Master toggle for all ads
-  "ad_type": 0,                                                      // 0=Waterfall, 1=AdMob only, 2=Facebook only
+  "ad_type": 1,                                                      // 0=Waterfall, 1=AdMob only, 2=Facebook only
   "ad_style": 2,                                                     // 0=Default, 1=Match-like, 2=Sponsored, 3=News-style
   "frequency_seconds": 90,                                           // Minimum seconds between interstitial ads
   "click_interval": 3,                                               // Number of clicks before showing interstitial
@@ -28,7 +28,7 @@
   // Ad placement intervals for different screens
   "ad_placement": {
     "matches_interval": 3,                                           // Show ad after every 3 matches
-    "news_interval": 5,                                              // Show ad after every 5 news items
+    "news_interval": 3,                                              // Show ad after every 5 news items
     "channels_interval": 5,                                          // Show ad after every 5 channels
     "categories_interval": 4                                         // Show ad after every 4 categories
   },
