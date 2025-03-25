@@ -1,7 +1,7 @@
 
 {
-  "showbutton": true,
-  "ad_statut": true,
+  "showbutton": false,
+  "ad_statut": false,
   "ad_type": 1,
   "vids": [],
   "interval": 30,
@@ -20,7 +20,7 @@
   "ad_placement": {
     "min_content_between_ads": 3,
     "max_ads_per_section": 100,
-    "matches_interval": 3,
+    "matches_interval": 2,
     "news_interval": 4,
     "channels_interval": 3,
     "categories_interval": 3
