@@ -31,8 +31,8 @@
 
   "rate_dialog": {
     "enabled": true,
-    "min_launches": 3,
-    "days_between_prompts": 7,
+    "min_launches": 1,
+    "days_between_prompts": 0,
     "show_after_launch": true,
     "title": "Enjoying Our App?",
     "message": "We'd love to hear your feedback! Please take a moment to rate our app.",
@@ -44,7 +44,7 @@
     "primary_color": "#1A237E",
     "secondary_color": "#303F9F",
     "show_stars": true,
-    "stars_required_to_store": 4
+    "stars_required_to_store": 3
   },
   
   "maxInterstitialsPerSession": 10,
