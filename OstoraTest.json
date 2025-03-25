@@ -1,42 +1,35 @@
 {
-  "ad_statut": true,                                                 
-  "ad_type": 1,                                                      
-  "ad_style": 2,                                                     
-  "click_interval": 3,                                               
-  "showbutton": true,                                               
-  "refresh_on_page_change": true,                                    
-  "ad_accent_color": "3f51b5",                                      
-  "ad_cta_color": "#2196F3",                                         
-  "interval": 30,                                                    
-  "coppa_mode": false,                                               
-
+  "ad_statut": true,
+  "ad_type": 1,
+  "ad_style": 2,
+  "click_interval": 3,
+  "showbutton": true,
+  "refresh_on_page_change": true,
+  "ad_accent_color": "3f51b5",
+  "ad_cta_color": "#2196F3",
+  "interval": 30,
+  "coppa_mode": false,
   
-  "admob_interstitial": "ca-app-pub-3940256099942544/1033173712",    
-  "admob_banner": "ca-app-pub-3940256099942544/6300978111",          
-  "admob_native": "ca-app-pub-3940256099942544/2247696110",          
-  "admob_mrec": "ca-app-pub-3940256099942544/2247696110",            
-  "admob_adaptive_banner": "ca-app-pub-3940256099942544/6300978111", 
-  "admob_app_open": "ca-app-pub-3940256099942544/3419835294",        
-
+  "admob_interstitial": "ca-app-pub-3940256099942544/1033173712",
+  "admob_banner": "ca-app-pub-3940256099942544/6300978111",
+  "admob_native": "ca-app-pub-3940256099942544/2247696110",
+  "admob_mrec": "ca-app-pub-3940256099942544/2247696110",
+  "admob_adaptive_banner": "ca-app-pub-3940256099942544/6300978111",
+  "admob_app_open": "ca-app-pub-3940256099942544/3419835294",
   
-  "fan_inter": "YOUR_FACEBOOK_INTERSTITIAL_ID",                      
-  "fan_banner": "YOUR_FACEBOOK_BANNER_ID",                           
-  "fan_native": "YOUR_FACEBOOK_NATIVE_ID",                           
-  "fan_mrec": "YOUR_FACEBOOK_MREC_ID",                               
-
- 
+  "fan_inter": "YOUR_FACEBOOK_INTERSTITIAL_ID",
+  "fan_banner": "YOUR_FACEBOOK_BANNER_ID",
+  "fan_native": "YOUR_FACEBOOK_NATIVE_ID",
+  "fan_mrec": "YOUR_FACEBOOK_MREC_ID",
+  
   "ad_placement": {
-    "matches_interval": 3,                                           
-    "news_interval": 3,                                              
-    "channels_interval": 5,                                         
-    "categories_interval": 4                                         
+    "matches_interval": 3,
+    "news_interval": 3,
+    "channels_interval": 5,
+    "categories_interval": 4
   },
-
   
-  "maxInterstitialsPerSession": 10,                                  
+  "maxInterstitialsPerSession": 10,
   
-  
-  "vids": [                                                         
- 
-  ]
+  "vids": []
 }
