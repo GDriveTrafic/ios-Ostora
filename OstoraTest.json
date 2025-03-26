@@ -1,7 +1,7 @@
 {
   "ad_statut": true,
   "ad_type": 1,
-  "ad_style": 2,
+  "ad_style": 3,
   "click_interval": 3,
   "showbutton": true,
   "refresh_on_page_change": true,
@@ -15,7 +15,7 @@
   "admob_native": "ca-app-pub-3940256099942544/2247696110",
   "admob_mrec": "ca-app-pub-3940256099942544/2247696110",
   "admob_adaptive_banner": "ca-app-pub-3940256099942544/6300978111",
-  "admob_open_ad": "ca-app-pub-3940256099942544/9257395921r",
+  "admob_open_ad": "ca-app-pub-3940256099942544/9257395921",
   
   "fan_inter": "YOUR_FACEBOOK_INTERSTITIAL_ID",
   "fan_banner": "YOUR_FACEBOOK_BANNER_ID",
@@ -29,6 +29,24 @@
     "news_interval":4,
     "categories_interval": 4
   },
+
+  "rate_dialog": {
+  "enabled": true,
+  "min_launches": 3,
+  "days_between_prompts": 7,
+  "show_after_launch": true,
+  "title": "Enjoying Our App?",
+  "message": "We'd love to hear your feedback! Please take a moment to rate our app.",
+  "positive_button": "Rate Now",
+  "later_button": "Later",
+  "never_button": "No Thanks",
+  "app_store_url": "",
+  "play_store_url": "",
+  "primary_color": "#1A237E",
+  "secondary_color": "#303F9F",
+  "show_stars": true,
+  "stars_required_to_store": 4
+}
   
   "maxInterstitialsPerSession": 10,
   
