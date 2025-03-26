@@ -10,7 +10,7 @@
   "interval": 30,
   "coppa_mode": false,
   
-  "admob_inter": "ca-app-pub-3940256099942544/1033173712r",
+  "admob_inter": "ca-app-pub-3940256099942544/1033173712",
   "admob_banner": "ca-app-pub-3940256099942544/6300978111",
   "admob_native": "ca-app-pub-3940256099942544/2247696110",
   "admob_mrec": "ca-app-pub-3940256099942544/2247696110",
@@ -24,22 +24,21 @@
   
   "ad_placement": {
     "matches_interval": 3,
-    "news_interval": 3,
+    "news_interval": 4,
     "channels_interval": 5,
-    "news_interval":4,
     "categories_interval": 4
   },
 
-  "rate_dialog": {
+"rate_dialog": {
   "enabled": true,
   "min_launches": 3,
-  "days_between_prompts": 7,
-  "show_after_launch": true,
-  "title": "Enjoying Our App?",
-  "message": "We'd love to hear your feedback! Please take a moment to rate our app.",
-  "positive_button": "Rate Now",
-  "later_button": "Later",
-  "never_button": "No Thanks",
+  "days_between_prompts": 5,
+  "show_after_launch": false,
+  "title": "Está Gostando do Nosso App?",
+  "message": "Sua opinião é muito importante para nós! Se você está gostando do app, que tal avaliá-lo? Isso nos ajuda muito a melhorar.",
+  "positive_button": "Avaliar Agora",
+  "later_button": "Mais Tarde",
+  "never_button": "Não, Obrigado",
   "app_store_url": "",
   "play_store_url": "",
   "primary_color": "#1A237E",
