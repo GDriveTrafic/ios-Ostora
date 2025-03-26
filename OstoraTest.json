@@ -1,7 +1,7 @@
 {
   "ad_statut": true,
   "ad_type": 1,
-  "ad_style": 3,
+  "ad_style": 1,
   "click_interval": 3,
   "showbutton": true,
   "refresh_on_page_change": true,
