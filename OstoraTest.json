@@ -1,13 +1,13 @@
 {
-  "ad_statut": false,
-  "showbutton": false,
+  "ad_statut": true,
+  "showbutton": true,
   "ad_type": 1,
   "ad_style": 1,
   "click_interval": 3,
   "refresh_on_page_change": true,
   "ad_accent_color": "3f51b5",
   "ad_cta_color": "#2196F3",
-  "interval": 30,
+  "interval": 10,
   "coppa_mode": false,
   
   "admob_inter": "ca-app-pub-3940256099942544/1033173712",
