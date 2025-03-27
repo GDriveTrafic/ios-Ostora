@@ -1,6 +1,6 @@
 {
   "ad_statut": false,
-  "showbutton": true,
+  "showbutton": false,
   "ad_type": 1,
   "ad_style": 1,
   "click_interval": 3,
