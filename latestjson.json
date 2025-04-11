@@ -1,126 +1,80 @@
 {
-  "version": 1,
-  "last_updated": "2025-04-12",
-  
-  "ad_settings": {
-    "enabled": true,
-    "ad_type": 1,
-    "ad_style": 2,
-    "refresh_on_page_change": true,
-    "coppa_mode": false,
-    "click_interval": 30,
-    "interstitial_hourly_cap": 3,
+  "ad_statut": true,
+  "vids": [],
+  "interval": 30,
+  "ad_networks": {
+    "admob": {
+      "app_id": "ca-app-pub-xxx",
+      "interstitial": "ca-app-pub-xxx/interstitial",
+      "banner": "ca-app-pub-xxx/banner",
+      "native": "ca-app-pub-xxx/native",
+      "app_open": "ca-app-pub-xxx/appopen",
+      "rewarded": "ca-app-pub-xxx/rewarded",
+      "cooldown_seconds": 60,
+      "priority": 1,
+      "timeout_ms": 10000
+    },
+    "facebook": {
+      "interstitial": "IMG_16_9_APP_INSTALL#123456789",
+      "banner": "IMG_16_9_APP_INSTALL#123456788",
+      "native": "IMG_16_9_APP_INSTALL#123456787",
+      "rewarded": "IMG_16_9_APP_INSTALL#123456786",
+      "cooldown_seconds": 120,
+      "priority": 2,
+      "timeout_ms": 8000
+    }
+  },
+  "policy_settings": {
+    "interstitial_cooldown_seconds": 60,
+    "app_open_cooldown_seconds": 120,
+    "post_launch_cooldown_seconds": 5,
+    "minimum_time_between_ads_seconds": 30,
+    "minimum_ad_interval_seconds": 120,
     "maxInterstitialsPerSession": 8,
-    "app_open_hourly_cap": 4,
     "maxAppOpenAdsPerSession": 5,
-    
-    "ad_colors": {
-      "accent_color": "3f51b5",
-      "cta_color": "#2196F3",
-      "background_color": "#FFFFFF",
-      "text_color": "#212121",
-      "secondary_text_color": "#757575"
-    },
-    
-    "ad_ids": {
-      "admob_inter": "ca-app-pub-xxxxxxxxxxxxxxxx/yyyyyyyyyy",
-      "admob_banner": "ca-app-pub-xxxxxxxxxxxxxxxx/yyyyyyyyyy",
-      "admob_native": "ca-app-pub-xxxxxxxxxxxxxxxx/yyyyyyyyyy",
-      "admob_mrec": "ca-app-pub-xxxxxxxxxxxxxxxx/yyyyyyyyyy",
-      "admob_adaptive_banner": "ca-app-pub-xxxxxxxxxxxxxxxx/yyyyyyyyyy",
-      "admob_open_ad": "ca-app-pub-xxxxxxxxxxxxxxxx/yyyyyyyyyy",
-      "fan_inter": "XXXXXXXXXX_YYYYYYYYYY",
-      "fan_banner": "XXXXXXXXXX_YYYYYYYYYY",
-      "fan_native": "XXXXXXXXXX_YYYYYYYYYY",
-      "fan_mrec": "XXXXXXXXXX_YYYYYYYYYY"
-    }
+    "coppa_mode": false
   },
-  
-  "refresh_intervals": {
-    "interstitial_interval": 10,
-    "banner_refresh_seconds": 120,
-    "native_ad_refresh_seconds": 300,
-    "adaptive_refresh": {
-      "enabled": true,
-      "min_interval": 30,
-      "max_interval": 180,
-      "step_interval": 15,
-      "optimization_period_hours": 12
-    },
-    "ad_placement": {
-      "matches_interval": 5,
-      "news_interval": 5,
-      "channels_interval": 7,
-      "categories_interval": 6,
-      "standings_interval": 5,
-      "team_details_interval": 4
-    }
-  },
-  
   "optimization_settings": {
-    "battery_optimization": {
-      "enabled": true,
-      "low_battery_threshold": 20,
-      "low_battery_multiplier": 1.25
-    },
-    "network_optimization": {
-      "enabled": true,
-      "metered_connection_multiplier": 1.2,
-      "offline_ad_caching": true
-    },
+    "default_click_through_rate": 0.02,
+    "ad_performance_history_days": 7,
+    "initial_network_selection_weight": 50,
+    "revenue_weight": 0.6,
+    "fill_rate_weight": 0.3,
+    "ctr_weight": 0.1,
     "performance_thresholds": {
-      "ctr_threshold": 0.01,
+      "ctr_threshold": 0.02,
       "valuable_impression_rate": 0.5,
       "high_rpm_threshold": 1.5,
       "very_high_rpm_threshold": 2.5,
       "low_rpm_threshold": 0.5
-    },
-    "background_state": {
-      "background_multiplier": 1.5,
-      "reduce_background_ads": true
     }
   },
-  
-  "consent_manager": {
-    "enabled": true,
-    "privacy_policy_url": "https://example.com/privacy-policy",
-    "terms_url": "https://example.com/terms",
-    "debug_geography": "disabled",
-    "test_device_ids": []
+  "refresh_intervals": {
+    "banner": 120,
+    "native": 180,
+    "interstitial_interval": 90,
+    "app_open_cooldown": 120,
+    "adaptive_refresh": {
+      "min_interval": 120,
+      "max_interval": 300,
+      "step_interval": 15
+    },
+    "ad_placement": {
+      "matches": 90,
+      "news": 120,
+      "channels": 90,
+      "categories": 90
+    }
   },
-  
-  "rate_dialog": {
-    "enabled": true,
-    "min_launches": 3,
-    "days_between_prompts": 2,
-    "title": "Enjoying the app?",
-    "message": "We'd love to hear your feedback! Please take a moment to rate our app.",
-    "positive_button": "Rate Now",
-    "later_button": "Later",
-    "never_button": "No Thanks",
-    "app_store_url": "https://apps.apple.com/app/idXXXXXXXXXX",
-    "play_store_url": "https://play.google.com/store/apps/details?id=com.example.ultimatescoreapp",
-    "primary_color": "#1A237E",
-    "secondary_color": "#303F9F",
-    "show_stars": true,
-    "stars_required_to_store": 4
+  "ui_settings": {
+    "click_interval": 3,
+    "showbutton": true,
+    "refresh_on_page_change": true,
+    "ad_accent_color": "3f51b5",
+    "ad_cta_color": "#2196F3"
   },
-  
-  "cache_settings": {
-    "max_cache_age_hours": 24,
-    "preload_images": true,
-    "offline_data_retention_days": 3,
-    "clear_cache_on_version_change": true
-  },
-  
-  "feature_flags": {
-    "enable_dark_mode": true,
-    "enable_push_notifications": true,
-    "enable_analytics": true,
-    "enable_crash_reporting": true,
-    "enable_performance_monitoring": true,
-    "show_ads": true,
-    "show_promotions": true,
-    "enable_personalized_ads": true
-  }
+  "waterfall_mode": "sequential",
+  "mediation_mode": "sequential",
+  "respect_ad_free_period": true,
+  "max_ads_per_session": 15
 }
