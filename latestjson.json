@@ -1,0 +1,126 @@
+{
+  "version": 1,
+  "last_updated": "2025-04-12",
+  
+  "ad_settings": {
+    "enabled": true,
+    "ad_type": 1,
+    "ad_style": 2,
+    "refresh_on_page_change": true,
+    "coppa_mode": false,
+    "click_interval": 30,
+    "interstitial_hourly_cap": 3,
+    "maxInterstitialsPerSession": 8,
+    "app_open_hourly_cap": 4,
+    "maxAppOpenAdsPerSession": 5,
+    
+    "ad_colors": {
+      "accent_color": "3f51b5",
+      "cta_color": "#2196F3",
+      "background_color": "#FFFFFF",
+      "text_color": "#212121",
+      "secondary_text_color": "#757575"
+    },
+    
+    "ad_ids": {
+      "admob_inter": "ca-app-pub-xxxxxxxxxxxxxxxx/yyyyyyyyyy",
+      "admob_banner": "ca-app-pub-xxxxxxxxxxxxxxxx/yyyyyyyyyy",
+      "admob_native": "ca-app-pub-xxxxxxxxxxxxxxxx/yyyyyyyyyy",
+      "admob_mrec": "ca-app-pub-xxxxxxxxxxxxxxxx/yyyyyyyyyy",
+      "admob_adaptive_banner": "ca-app-pub-xxxxxxxxxxxxxxxx/yyyyyyyyyy",
+      "admob_open_ad": "ca-app-pub-xxxxxxxxxxxxxxxx/yyyyyyyyyy",
+      "fan_inter": "XXXXXXXXXX_YYYYYYYYYY",
+      "fan_banner": "XXXXXXXXXX_YYYYYYYYYY",
+      "fan_native": "XXXXXXXXXX_YYYYYYYYYY",
+      "fan_mrec": "XXXXXXXXXX_YYYYYYYYYY"
+    }
+  },
+  
+  "refresh_intervals": {
+    "interstitial_interval": 10,
+    "banner_refresh_seconds": 120,
+    "native_ad_refresh_seconds": 300,
+    "adaptive_refresh": {
+      "enabled": true,
+      "min_interval": 30,
+      "max_interval": 180,
+      "step_interval": 15,
+      "optimization_period_hours": 12
+    },
+    "ad_placement": {
+      "matches_interval": 5,
+      "news_interval": 5,
+      "channels_interval": 7,
+      "categories_interval": 6,
+      "standings_interval": 5,
+      "team_details_interval": 4
+    }
+  },
+  
+  "optimization_settings": {
+    "battery_optimization": {
+      "enabled": true,
+      "low_battery_threshold": 20,
+      "low_battery_multiplier": 1.25
+    },
+    "network_optimization": {
+      "enabled": true,
+      "metered_connection_multiplier": 1.2,
+      "offline_ad_caching": true
+    },
+    "performance_thresholds": {
+      "ctr_threshold": 0.01,
+      "valuable_impression_rate": 0.5,
+      "high_rpm_threshold": 1.5,
+      "very_high_rpm_threshold": 2.5,
+      "low_rpm_threshold": 0.5
+    },
+    "background_state": {
+      "background_multiplier": 1.5,
+      "reduce_background_ads": true
+    }
+  },
+  
+  "consent_manager": {
+    "enabled": true,
+    "privacy_policy_url": "https://example.com/privacy-policy",
+    "terms_url": "https://example.com/terms",
+    "debug_geography": "disabled",
+    "test_device_ids": []
+  },
+  
+  "rate_dialog": {
+    "enabled": true,
+    "min_launches": 3,
+    "days_between_prompts": 2,
+    "title": "Enjoying the app?",
+    "message": "We'd love to hear your feedback! Please take a moment to rate our app.",
+    "positive_button": "Rate Now",
+    "later_button": "Later",
+    "never_button": "No Thanks",
+    "app_store_url": "https://apps.apple.com/app/idXXXXXXXXXX",
+    "play_store_url": "https://play.google.com/store/apps/details?id=com.example.ultimatescoreapp",
+    "primary_color": "#1A237E",
+    "secondary_color": "#303F9F",
+    "show_stars": true,
+    "stars_required_to_store": 4
+  },
+  
+  "cache_settings": {
+    "max_cache_age_hours": 24,
+    "preload_images": true,
+    "offline_data_retention_days": 3,
+    "clear_cache_on_version_change": true
+  },
+  
+  "feature_flags": {
+    "enable_dark_mode": true,
+    "enable_push_notifications": true,
+    "enable_analytics": true,
+    "enable_crash_reporting": true,
+    "enable_performance_monitoring": true,
+    "show_ads": true,
+    "show_promotions": true,
+    "enable_personalized_ads": true
+  }
+}
