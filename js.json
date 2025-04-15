@@ -1,0 +1,109 @@
+{
+
+  "interval": 3,                    
+  "ad_statut": true,               
+  "vids": [],                      
+  
+  
+  "interstitial_cooldown_seconds": 90,        
+  "admob_interstitial_cooldown_seconds": 90,  
+  "facebook_interstitial_cooldown_seconds": 90,
+  "app_open_cooldown_seconds": 90,            
+  "post_launch_cooldown_seconds": 5,         
+  "interstitial_to_app_open_cooldown": 60,    
+  "minimum_time_between_ads_seconds": 30,    
+  "frequency_seconds": 90,                    
+  
+
+  "interstitial_hourly_cap": 5,               
+  "app_open_hourly_cap": 5,                 
+  "maxInterstitialsPerSession": 8,            
+  "maxAppOpenAdsPerSession": 7,              
+  
+
+  "admob_app_id": "ca-app-pub-9238291077605142~6895464841",
+  "admob_banner": "ca-app-pub-9238291077605142/3705059256",
+  "admob_inter": "ca-app-pub-9238291077605142/7055246942", 
+  "admob_native": "ca-app-pub-9238291077605142/9556925817",
+  "admob_open_ad": "ca-app-pub-9238291077605142/3777985528",
+  "fan_banner": "YOUR_PLACEMENT_ID",
+  "fan_inter": "YOUR_PLACEMENT_ID",
+  "fan_native": "YOUR_PLACEMENT_ID",
+  
+ 
+  "ad_type": 1,                      
+  "mediation_mode": "sequential",    
+  "waterfall_mode": "sequential",    
+  
+
+  "refresh_interval": 120,          
+  "refresh_intervals": {
+    "banner_refresh_seconds": 60,
+    "native_ad_refresh_seconds": 120,
+    "interstitial_interval": 90,
+    "app_open_cooldown": 90,
+    "ad_placement": {                
+      "home": 120,
+      "detail": 90,
+      "results": 100,
+      "matches_interval": 4,
+      "news_interval": 4,
+      "channels_interval": 5,
+      "categories_interval": 6
+    }
+  },
+  
+
+  "click_interval": 3,               
+  "showbutton": true,             
+  "refresh_on_page_change": true,    
+  "ad_accent_color": "3f51b5",      
+  "ad_cta_color": "#2196F3",      
+  
+
+  "respect_ad_free_period": true,    
+  "coppa_mode": false,               
+  "max_ads_per_session": 15,    
+  
+
+  "rate_dialog": {
+    "enabled": true,
+    "min_launches": 3,              
+  "title": "Está Gostando do Nosso App?",
+    "message": "Sua opinião é muito importante para nós! Se você está gostando do app, que tal avaliá-lo? Isso nos ajuda muito a melhorar.",
+    "positive_button": "Avaliar Agora",
+    "later_button": "Mais Tarde",
+    "never_button": "Não, Obrigado",
+    "app_store_url": "https://apps.apple.com/br/app/futebol-max/id6741378116?l=en-GB",             
+    "play_store_url": "",            
+    "primary_color": "#1A237E", 
+    "secondary_color": "#303F9F",
+    "show_stars": true,
+    "stars_required_to_store": 3     
+  },
+  
+
+  "api_urls": {
+    "scores": "https://static.holoduke.nl/footapi/fixtures/feed_matches_aggregated_short.json",
+    "live_matches": "https://static.holoduke.nl/footapi/fixtures/feed_livenow.json",
+    "news": "https://static.holoduke.nl/footapi/news/US.json"
+  },
+  
+
+  "features": {
+    "enable_live_scores": true,
+    "enable_notifications": true,
+    "enable_news": true,
+    "enable_videos": true,
+    "enable_premium_features": false
+  },
+
+
+  "theme": {
+    "primary_color": "#1A237E",
+    "accent_color": "#FF4081", 
+    "background_color": "#FFFFFF",
+    "text_color": "#212121",
+    "dark_mode": false
+  }
+}
