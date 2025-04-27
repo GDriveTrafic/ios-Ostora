@@ -1,53 +1,18 @@
 {
-  "ad_statut": true,
   "showbutton": true,
+  "ad_statut": true,
   "ad_type": 1,
-  "ad_style": 3,
-  "click_interval": 3,
-  "refresh_on_page_change": true,
-  "ad_accent_color": "3f51b5",
-  "ad_cta_color": "#2196F3",
-  "interval": 10,
-  "coppa_mode": false,
-  
-  "admob_inter": "ca-app-pub-3940256099942544/1033173712",
+   "admob_inter": "ca-app-pub-3940256099942544/1033173712",
   "admob_banner": "ca-app-pub-3940256099942544/6300978111",
   "admob_native": "ca-app-pub-3940256099942544/2247696110",
-  "admob_mrec": "ca-app-pub-3940256099942544/2247696110",
-  "admob_adaptive_banner": "ca-app-pub-3940256099942544/6300978111",
-  "admob_open_ad": "ca-app-pub-3940256099942544/9257395921",
-  
-  "fan_inter": "YOUR_FACEBOOK_INTERSTITIAL_ID",
-  "fan_banner": "YOUR_FACEBOOK_BANNER_ID",
-  "fan_native": "YOUR_FACEBOOK_NATIVE_ID",
-  "fan_mrec": "YOUR_FACEBOOK_MREC_ID",
-  
-  "ad_placement": {
-    "matches_interval": 3,
-    "news_interval": 4,
-    "channels_interval": 5,
-    "categories_interval": 4
-  },
-
-  "rate_dialog": {
-    "enabled": true,
-    "min_launches": 3,
-    "days_between_prompts": 5,
-    "show_after_launch": false,
-    "title": "Está Gostando do Nosso App?",
-    "message": "Sua opinião é muito importante para nós! Se você está gostando do app, que tal avaliá-lo? Isso nos ajuda muito a melhorar.",
-    "positive_button": "Avaliar Agora",
-    "later_button": "Mais Tarde",
-    "never_button": "Não, Obrigado",
-    "app_store_url": "",
-    "play_store_url": "",
-    "primary_color": "#1A237E",
-    "secondary_color": "#303F9F",
-    "show_stars": true,
-    "stars_required_to_store": 4
-  },
-  
-  "maxInterstitialsPerSession": 10,
-  
-  "vids": []
+  "admob_open_ad": "ca-app-pub-3940256099942544/9257395921"
+  "fan_inter": "599548379375966_600854755911995",
+  "fan_banner": "599548379375966_600854605912010",
+  "fan_native": "599548379375966_600854902578647",
+  "applovin_inter": "",
+  "vids": "",
+  "share": "check out this awesome score list app",
+  "rate": "https://apps.apple.com/app/match-yacine-score-football/id6740161393",
+  "more": "https://apps.apple.com/co/developer/",
+  "interval": 2
 }
