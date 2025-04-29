@@ -20,9 +20,9 @@
   "native_interval": 5,
   "categories_interval": 5,
   "rate_dialog": {
-    "enabled": true,
+    "enabled": false,
     "min_launches": 3,
-    "min_days": 0,
+    "min_days": 3,
     "title": "Está Gostando do Nosso App?tt",
     "message": "Sua opinião é muito importante para nós! Se você está gostando do app, que tal avaliá-lo? Isso nos ajuda muito a melhorar.",
     "positive_button": "Avaliar Agora",
