@@ -15,8 +15,8 @@
   "rate": "https://apps.apple.com/app/match-yacine-score-football/id6740161393",
   "more": "https://apps.apple.com/co/developer/",
   "interval": 2,
-  "matches_interval": 4,
+  "matches_interval": 3,
   "news_interval": 3,
-  "channels_interval": 2,
-  "categories_interval": 2
+  "channels_interval": 4,
+  "categories_interval": 4
 }
