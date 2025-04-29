@@ -1,6 +1,6 @@
 {
-  "showbutton": false,
-  "ad_statut": false,
+  "showbutton": true,
+  "ad_statut": true,
   "ad_type": 1,
   "admob_inter": "ca-app-pub-3940256099942544/1033173712",
   "admob_banner": "ca-app-pub-3940256099942544/6300978111",
@@ -20,7 +20,7 @@
   "native_interval": 5,
   "categories_interval": 5,
   "rate_dialog": {
-    "enabled": true,
+    "enabled": false,
     "min_launches": 3,
     "min_days": 2,
     "title": "Está Gostando do Nosso App?tt",
