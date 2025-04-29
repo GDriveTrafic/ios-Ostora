@@ -18,5 +18,5 @@
   "matches_interval": 3,
   "news_interval": 3,
   "channels_interval": 7,
-  "categories_interval": 7
+  "categories_interval": 5
 }
