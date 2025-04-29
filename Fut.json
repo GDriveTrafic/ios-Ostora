@@ -1,6 +1,6 @@
 {
-  "showbutton": true,
-  "ad_statut": true,
+  "showbutton": false,
+  "ad_statut": false,
   "ad_type": 1,
   "admob_inter": "ca-app-pub-3940256099942544/1033173712",
   "admob_banner": "ca-app-pub-3940256099942544/6300978111",
@@ -20,9 +20,9 @@
   "native_interval": 5,
   "categories_interval": 5,
   "rate_dialog": {
-    "enabled": false,
+    "enabled": true,
     "min_launches": 3,
-    "min_days": 2,
+    "min_days": 0,
     "title": "Está Gostando do Nosso App?tt",
     "message": "Sua opinião é muito importante para nós! Se você está gostando do app, que tal avaliá-lo? Isso nos ajuda muito a melhorar.",
     "positive_button": "Avaliar Agora",
