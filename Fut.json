@@ -17,7 +17,7 @@
   "interval": 3,
   "matches_interval": 4,
   "news_interval": 4,
-  "native_interval": 7,
+  "native_interval": 6,
   "categories_interval": 5,
   "rate_dialog": {
     "enabled": true,
