@@ -83,10 +83,6 @@
   },
   
 
-  "api_urls": {
-    "scores": "https://static.holoduke.nl/footapi/fixtures/feed_matches_aggregated_short.json",
-    "live_matches": "https://static.holoduke.nl/footapi/fixtures/feed_livenow.json",
-    "news": "https://static.holoduke.nl/footapi/news/US.json"
   },
   
 
