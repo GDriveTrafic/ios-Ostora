@@ -21,16 +21,16 @@
   "categories_interval": 5,
   "show_live_match_button": true,
   "subscription_texts": {
-    "headerTitle": "kkkkkkkPARTIDA AO VIVO",
-    "liveIndicator": "kkkkkAO VIVO",
-    "streamTitle": "kkkkTransmissão disponível para assinantes",
-    "streamSubtitle": "kkkkkO jogo está sendo transmitido agora.",
-    "watchButton": "kkkkkASSISTIR AGORA",
-    "lockTitle": "kkkkConteúdo Exclusivo para Assinantes",
-    "lockMessage": "kkkkkkAssine o plano Premium para assistir a todos os jogos ao vivo e ter acesso exclusivo a conteúdos especiais.",
-    "subscribeButton": "kkkkkASSINAR AGORA",
-    "successMessage": "kkkkAssinatura concluída com sucesso!",
-    "errorMessage": "kkkkFalha ao carregar opções de assinatura. Tente novamente."
+    "headerTitle": "PARTIDA AO VIVO",
+    "liveIndicator": "AO VIVO",
+    "streamTitle": "Transmissão disponível para assinantes",
+    "streamSubtitle": "O jogo está sendo transmitido agora.",
+    "watchButton": "ASSISTIR AGORA",
+    "lockTitle": "Conteúdo Exclusivo para Assinantes",
+    "lockMessage": "Assine o plano Premium para assistir a todos os jogos ao vivo e ter acesso exclusivo a conteúdos especiais.",
+    "subscribeButton": "ASSINAR AGORA",
+    "successMessage": "Assinatura concluída com sucesso!",
+    "errorMessage": "Falha ao carregar opções de assinatura. Tente novamente."
   },
   "rate_dialog": {
     "enabled": true,
