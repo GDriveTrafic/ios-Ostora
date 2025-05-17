@@ -1,5 +1,5 @@
 {
-  "showbutton": false,
+  "showbutton": true,
   "ad_statut": true,
   "ad_type": 1,
   "admob_inter": "ca-app-pub-3940256099942544/1033173712",
@@ -15,10 +15,10 @@
   "rate": "https://apps.apple.com/app/match-yacine-score-football/id6740161393",
   "more": "https://apps.apple.com/co/developer/",
   "interval": 2,
-  "matches_interval": 3,
-  "news_interval": 3,
-  "native_interval": 9,
-  "categories_interval": 9,
+  "matches_interval": 2,
+  "news_interval": 2,
+  "native_interval": 2,
+  "categories_interval": 2,
   "sports_channels_button_text": "Leitor de canais",
   "show_live_match_button": true,
   "subscription_texts": {
