@@ -17,8 +17,8 @@
   "interval": 2,
   "matches_interval": 3,
   "news_interval": 3,
-  "native_interval": 599999999999999999999999999999999999999999999999999999999999999999999,
-  "categories_interval": 5,
+  "native_interval": 9,
+  "categories_interval": 9,
   "sports_channels_button_text": "0000CANAIS DE TV",
   "show_live_match_button": true,
   "subscription_texts": {
