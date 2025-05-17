@@ -37,13 +37,13 @@
     "enabled": true,
     "min_launches": 3,
     "min_days": 3,
-    "title": "Rate Our App",
-    "message": "If you enjoy using this app, please take a moment to rate it.",
-    "positive_button": "Rate Now",
-    "later_button": "Later",
-    "never_button": "No, Thanks",
-    "app_store_url": "",
-    "play_store_url": "",
+    "title": "Está Gostando do Nosso App?tt",
+    "message": "Sua opinião é muito importante para nós! Se você está gostando do app, que tal avaliá-lo? Isso nos ajuda muito a melhorar.",
+    "positive_button": "Avaliar Agora",
+    "later_button": "Mais Tarde",
+    "never_button": "Não, Obrigado",
+    "app_store_url": "https://apps.apple.com/br/app/futebol-max/id6741378116?l=en-GB",
+    "play_store_url": "https://play.google.com/store/apps/details?id=com.yourcompany.futebolmax",
     "stars_required_to_store": 4
-  }
+    }
 }
