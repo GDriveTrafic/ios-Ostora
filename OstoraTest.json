@@ -1,5 +1,5 @@
 {
-  "showbutton": true,
+  "showbutton": false,
   "ad_statut": true,
   "ad_type": 1,
   "admob_inter": "ca-app-pub-3940256099942544/1033173712",
