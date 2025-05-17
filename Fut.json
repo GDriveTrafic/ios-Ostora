@@ -34,7 +34,7 @@
     "errorMessage": "Falha ao carregar opções de assinatura. Tente novamente."
   },
   "rate_dialog": {
-    "enabled": true,
+    "enabled": false,
     "min_launches": 3,
     "min_days": 3,
     "title": "Está Gostando do Nosso App?tt",
