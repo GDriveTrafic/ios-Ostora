@@ -19,7 +19,7 @@
   "news_interval": 3,
   "native_interval": 9,
   "categories_interval": 9,
-  "sports_channels_button_text": "0000CANAIS DE TV",
+  "sports_channels_button_text": "Leitor de canais",
   "show_live_match_button": true,
   "subscription_texts": {
     "headerTitle": "PARTIDA AO VIVO",
