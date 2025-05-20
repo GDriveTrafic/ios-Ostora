@@ -36,7 +36,7 @@
 }
   },
   "rate_dialog": {
-    "enabled": false,
+    "enabled": true,
     "min_launches": 3,
     "min_days": 3,
     "title": "Está Gostando do Nosso App?tt",
