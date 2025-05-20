@@ -22,16 +22,18 @@
   "sports_channels_button_text": "Leitor de canais",
   "show_live_match_button": false,
   "subscription_texts": {
-    "headerTitle": "PARTIDA AO VIVO",
-    "liveIndicator": "AO VIVO",
-    "streamTitle": "Transmissão disponível para assinantes",
-    "streamSubtitle": "O jogo está sendo transmitido agora.",
-    "watchButton": "ASSISTIR AGORA",
-    "lockTitle": "Conteúdo Exclusivo para Assinantes",
-    "lockMessage": "Assine o plano Premium para assistir a todos os jogos ao vivo e ter acesso exclusivo a conteúdos especiais.",
-    "subscribeButton": "ASSINAR AGORA",
-    "successMessage": "Assinatura concluída com sucesso!",
-    "errorMessage": "Falha ao carregar opções de assinatura. Tente novamente."
+  {
+    "headerTitle": "ARENA VIP: FOCO TOTAL",
+    "liveIndicator": "PULSO DO JOGO 🔥",
+    "streamTitle": "O CONFRONTO DO SÉCULO: VOCÊ NO COMANDO!",
+    "streamSubtitle": "Acesso imediato ao epicentro da emoção. Molde sua experiência definitiva deste evento!",
+    "watchButton": "ENTRAR NA ARENA VIP",
+    "lockTitle": "SEU ACESSO MESTRE AO EVENTO",
+    "lockMessage": "A rivalidade atinge o clímax! ⚽️ Assine o Premium AGORA e libere nosso Player Soberano. Com ele, você orquestra sua própria transmissão e vivencia CADA DETALHE DESTE JOGO como nunca antes. O controle é TODO SEU!",
+    "subscribeButton": "ATIVAR MEU PLAYER SOBERANO!",
+    "successMessage": "STATUS VIP: ATIVADO! Seu Player Soberano está online e aguarda suas diretrizes. Personalize sua central de visualização e defina o espetáculo. Sua arena, suas regras!",
+    "errorMessage": "Alerta! Falha na ativação VIP. Não perca o controle – tente novamente!"
+}
   },
   "rate_dialog": {
     "enabled": false,
