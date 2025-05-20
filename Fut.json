@@ -33,7 +33,7 @@
     "subscribeButton": "ATIVAR MEU PLAYER SOBERANO!",
     "successMessage": "STATUS VIP: ATIVADO! Seu Player Soberano está online e aguarda suas diretrizes. Personalize sua central de visualização e defina o espetáculo. Sua arena, suas regras!",
     "errorMessage": "Alerta! Falha na ativação VIP. Não perca o controle – tente novamente!"
-}
+
   },
   "rate_dialog": {
     "enabled": true,
