@@ -20,7 +20,7 @@
   "native_interval": 6,
   "categories_interval": 7,
   "sports_channels_button_text": "Leitor de canais",
-  "show_live_match_button": false,
+  "show_live_match_button": true,
   "subscription_texts": {
   {
     "headerTitle": "ARENA VIP: FOCO TOTAL",
