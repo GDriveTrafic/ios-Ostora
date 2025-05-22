@@ -37,8 +37,8 @@
   },
   "rate_dialog": {
     "enabled": true,
-    "min_launches": 3,
-    "min_days": 2,
+    "min_launches": 1,
+    "min_days": 0,
     "title": "Está Gostando do Nosso App?tt",
     "message": "Sua opinião é muito importante para nós! Se você está gostando do app, que tal avaliá-lo? Isso nos ajuda muito a melhorar.",
     "positive_button": "Avaliar Agora",
