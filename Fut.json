@@ -23,16 +23,16 @@
   "show_live_match_button": false,
   "subscription_texts": {
   
-    "headerTitle": "ARENA VIP: FOCO TOTAL",
-    "liveIndicator": "PULSO DO JOGO 🔥",
-    "streamTitle": "O CONFRONTO DO SÉCULO: VOCÊ NO COMANDO!",
-    "streamSubtitle": "Acesso imediato ao epicentro da emoção. Molde sua experiência definitiva deste evento!",
-    "watchButton": "ENTRAR NA ARENA VIP",
-    "lockTitle": "SEU ACESSO MESTRE AO EVENTO",
-    "lockMessage": "A rivalidade atinge o clímax! ⚽️ Assine o Premium AGORA e libere nosso Player Soberano. Com ele, você orquestra sua própria transmissão e vivencia CADA DETALHE DESTE JOGO como nunca antes. O controle é TODO SEU!",
-    "subscribeButton": "ATIVAR MEU PLAYER SOBERANO!",
-    "successMessage": "STATUS VIP: ATIVADO! Seu Player Soberano está online e aguarda suas diretrizes. Personalize sua central de visualização e defina o espetáculo. Sua arena, suas regras!",
-    "errorMessage": "Alerta! Falha na ativação VIP. Não perca o controle – tente novamente!"
+    "headerTitle": "ARENA VIP",
+  "liveIndicator": "PLAYER ATIVO",
+  "streamTitle": "CONTROLE TOTAL",
+  "streamSubtitle": "Acesso exclusivo ao conteúdo premium.",
+  "watchButton": "ABRIR PLAYER",
+  "lockTitle": "ACESSO BLOQUEADO",
+  "lockMessage": "Assine o Premium para desbloquear o Player Soberano. Transmissão sem restrições, personalização total.",
+  "subscribeButton": "DESBLOQUEAR AGORA",
+  "successMessage": "PLAYER LIBERADO. Aproveite o conteúdo sem limites.",
+  "errorMessage": "Falha na ativação. Verifique sua conexão e tente novamente."
 
   },
   "rate_dialog": {
