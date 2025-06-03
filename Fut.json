@@ -20,7 +20,7 @@
   "native_interval": 4,
   "categories_interval": 4,
   "sports_channels_button_text": "PLAYER AO VIVO PRONTO",
-  "show_live_match_button": true,
+  "show_live_match_button": false,
   "subscription_texts": {
   
     "headerTitle": "ARENA VIP: FOCO TOTAL",
