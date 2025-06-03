@@ -1,1 +1,52 @@
 
+{
+  "showbutton": true,
+  "ad_statut": true,
+  "ad_type": 1,
+  "admob_inter": "ca-app-pub-9238291077605142/7055246942",
+  "admob_banner": "ca-app-pub-9238291077605142/3705059256",
+  "admob_native": "ca-app-pub-9238291077605142/9556925817",
+  "admob_open_ad": "ca-app-pub-9238291077605142/3777985528",
+  "fan_inter": "2310957805965789_2311969479197955",
+  "fan_banner": "2310957805965789_2310959802632256",
+  "fan_native": "2310957805965789_2311969599197943",
+  "applovin_inter": "",
+  "vids": "",
+  "share": "check out this awesome score list app",
+  "rate": "https://apps.apple.com/app/match-yacine-score-football/id6740161393",
+  "more": "https://apps.apple.com/co/developer/",
+  "interval": 2,
+  "matches_interval": 4,
+  "news_interval": 4,
+  "native_interval": 4,
+  "categories_interval": 4,
+  "sports_channels_button_text": "PLAYER AO VIVO PRONTO",
+  "show_live_match_button": true,
+  "subscription_texts": {
+  
+    "headerTitle": "ARENA VIP: FOCO TOTAL",
+    "liveIndicator": "PULSO DO JOGO 🔥",
+    "streamTitle": "O CONFRONTO DO SÉCULO: VOCÊ NO COMANDO!",
+    "streamSubtitle": "Acesso imediato ao epicentro da emoção. Molde sua experiência definitiva deste evento!",
+    "watchButton": "ENTRAR NA ARENA VIP",
+    "lockTitle": "SEU ACESSO MESTRE AO EVENTO",
+    "lockMessage": "A rivalidade atinge o clímax! ⚽️ Assine o Premium AGORA e libere nosso Player Soberano. Com ele, você orquestra sua própria transmissão e vivencia CADA DETALHE DESTE JOGO como nunca antes. O controle é TODO SEU!",
+    "subscribeButton": "ATIVAR MEU PLAYER SOBERANO!",
+    "successMessage": "STATUS VIP: ATIVADO! Seu Player Soberano está online e aguarda suas diretrizes. Personalize sua central de visualização e defina o espetáculo. Sua arena, suas regras!",
+    "errorMessage": "Alerta! Falha na ativação VIP. Não perca o controle – tente novamente!"
+
+  },
+  "rate_dialog": {
+    "enabled": true,
+    "min_launches": 1,
+    "min_days": 0,
+    "title": "Está Gostando do Nosso App?tt",
+    "message": "Sua opinião é muito importante para nós! Se você está gostando do app, que tal avaliá-lo? Isso nos ajuda muito a melhorar.",
+    "positive_button": "Avaliar Agora",
+    "later_button": "Mais Tarde",
+    "never_button": "Não, Obrigado",
+    "app_store_url": "https://apps.apple.com/br/app/futebol-max/id6741378116?l=en-GB",
+    "play_store_url": "https://play.google.com/store/apps/details?id=com.yourcompany.futebolmax",
+    "stars_required_to_store": 4
+    }
+}
