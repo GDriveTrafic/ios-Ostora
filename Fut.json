@@ -23,16 +23,16 @@
   "show_live_match_button": true,
   "subscription_texts": {
   
-    "headerTitle": "ARENA VIP",
-  "liveIndicator": "PLAYER ATIVO",
-  "streamTitle": "CONTROLE TOTAL",
-  "streamSubtitle": "Acesso exclusivo ao conteúdo premium.",
-  "watchButton": "ABRIR PLAYER",
-  "lockTitle": "ACESSO BLOQUEADO",
-  "lockMessage": "Assine o Premium para desbloquear o Player Soberano. Transmissão sem restrições, personalização total.",
-  "subscribeButton": "DESBLOQUEAR AGORA",
-  "successMessage": "PLAYER LIBERADO. Aproveite o conteúdo sem limites.",
-  "errorMessage": "Falha na ativação. Verifique sua conexão e tente novamente."
+  "headerTitle": "VIP ARENA",
+  "liveIndicator": "PLAYER ACTIVE",
+  "streamTitle": "TOTAL CONTROL",
+  "streamSubtitle": "Exclusive access to premium content.",
+  "watchButton": "OPEN PLAYER",
+  "lockTitle": "ACCESS LOCKED",
+  "lockMessage": "Subscribe to Premium to unlock the Sovereign Player. Unrestricted streaming, full customization.",
+  "subscribeButton": "UNLOCK NOW",
+  "successMessage": "PLAYER UNLOCKED. Enjoy unlimited content.",
+  "errorMessage": "Activation failed. Check your connection and try again."
 
   },
   "rate_dialog": {
